@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  /* Unified brand gradient backgrounds */
+  .bg-brand-gradient {
+    @apply bg-gradient-to-r from-brandPink-500 to-brandPurple-600;
+  }
+  .bg-brand-gradient-soft {
+    @apply bg-gradient-to-br from-brandPink-50 via-brandPurple-50 to-brandPink-100;
+  }
+  /* Gradient text helper */
+  .text-brand-gradient {
+    @apply bg-gradient-to-r from-brandPink-600 to-brandPurple-600 bg-clip-text text-transparent;
+  }
+  /* Card hover animation helper for a subtle lift */
+  .card-smooth {
+    @apply transition-all duration-300 ease-out hover:scale-105 hover:shadow-xl;
+  }
+  /* Note: pulseSlow keyframe now defined in tailwind.config for consistency */
+}
+
+@layer base {
+  /* Smooth scrolling across the site */
+  html {
+    scroll-behavior: smooth;
+  }
+}
