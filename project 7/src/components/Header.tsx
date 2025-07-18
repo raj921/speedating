@@ -22,9 +22,7 @@ export default function Header({ onAuthClick }: HeaderProps) {
                 className="w-full h-full object-cover"
               />
             </div>
-            <span className="text-2xl font-bold text-brand-gradient">
-              SpeedConnect
-            </span>
+            <span className="text-2xl font-bold text-brand-gradient">VideoMatch</span>
           </div>
 
           {/* Desktop Navigation */}

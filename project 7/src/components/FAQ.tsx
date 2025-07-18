@@ -63,7 +63,7 @@ export default function FAQ() {
             Frequently Asked Questions
           </h2>
           <p className="text-xl text-gray-600">
-            Everything you need to know about SpeedConnect events
+            Everything you need to know about VideoMatch events
           </p>
         </div>
 

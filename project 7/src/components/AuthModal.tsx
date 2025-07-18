@@ -45,7 +45,7 @@ export default function AuthModal({ isOpen, onClose }: AuthModalProps) {
 
         <div className="text-center mb-8">
           <h2 className="text-2xl font-bold text-gray-900 mb-2">
-            {isLogin ? 'Welcome Back!' : 'Join SpeedConnect'}
+            {isLogin ? 'Welcome Back!' : 'Join VideoMatch'}
           </h2>
           <p className="text-gray-600">
             {isLogin ? 'Sign in to your account' : 'Create your account to get started'}

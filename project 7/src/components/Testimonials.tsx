@@ -56,8 +56,8 @@ export default function Testimonials() {
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
             Love Stories That Started Here
           </h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Real couples, real stories, real happiness. See how SpeedConnect has brought thousands of people together.
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            Real couples, real stories, real happiness. See how VideoMatch has brought thousands of people together.
           </p>
         </div>
 
