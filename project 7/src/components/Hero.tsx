@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { ArrowRight, Play, Video, Users, Heart } from 'lucide-react';
 
 interface HeroProps {
@@ -24,8 +24,8 @@ export default function Hero({ onJoinEvent }: HeroProps) {
       {/* Content */}
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto animate-fadeInUp">
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-          Meet Your Soulmate Through
-          <span className="block text-brand-gradient">Video Speed Dating</span>
+          Meet Your Soulmate With
+          <span className="block text-brand-gradient">Videomatch.date</span>
         </h1>
         
         <p className="text-xl sm:text-2xl text-white/90 mb-8 max-w-2xl mx-auto leading-relaxed animate-fadeIn delay-150">
@@ -54,7 +54,7 @@ export default function Hero({ onJoinEvent }: HeroProps) {
             onClick={onJoinEvent}
             className="bg-white text-slate-700 px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-50 transform hover:scale-105 transition-all duration-300 shadow-lg flex items-center space-x-2 group"
           >
-            <span>Start Video Dating Now</span>
+            <span>Start Your Videomatch Journey Today</span>
             <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
           </button>
           

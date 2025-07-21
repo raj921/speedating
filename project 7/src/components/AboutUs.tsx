@@ -2,7 +2,7 @@ import aboutUsImage from '../../asset/image.png';
 
 export default function AboutUs() {
   return (
-    <section id="about" className="relative py-12 sm:py-16 md:py-20 bg-brand-gradient-soft min-h-screen flex flex-col items-center justify-center overflow-hidden">
+    <section id="about" className="relative py-12 bg-brand-gradient-soft overflow-hidden">
       {/* Background decorative elements */}
       <div className="absolute inset-0 bg-gradient-to-br from-rose-100/20 via-pink-100/20 to-purple-100/20"></div>
       <div className="absolute top-10 left-10 w-32 h-32 bg-gradient-to-br from-rose-200/30 to-pink-200/30 rounded-full blur-3xl"></div>
@@ -10,11 +10,11 @@ export default function AboutUs() {
       
       <div className="relative z-10 w-full max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header Section */}
-        <div className="text-center mb-8 sm:mb-12">
-          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold bg-gradient-to-r from-rose-600 via-pink-600 to-purple-600 bg-clip-text text-transparent mb-4">
+        <div className="text-center mb-8">
+          <h2 className="text-3xl sm:text-4xl font-bold bg-gradient-to-r from-rose-600 via-pink-600 to-purple-600 bg-clip-text text-transparent mb-3">
             About Us
           </h2>
-          <p className="text-gray-600 text-lg sm:text-xl max-w-2xl mx-auto">
+          <p className="text-gray-600 text-base sm:text-lg max-w-2xl mx-auto">
             Discover our story and what makes us unique
           </p>
         </div>

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight, Star } from 'lucide-react';
 
 const testimonials = [
@@ -50,9 +50,9 @@ export default function Testimonials() {
   };
 
   return (
-    <section className="py-20 bg-brand-gradient-soft">
+    <section className="py-12 bg-brand-gradient-soft">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+        <div className="text-center mb-10">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
             Love Stories That Started Here
           </h2>
